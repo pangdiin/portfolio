@@ -4,3 +4,31 @@ body {
 	background: $primary;
 	color : $primary-color;
 }
+
+.wrapper {
+	max-width: 1200px;
+	border: 1px solid red;
+	margin: 0 auto;
+}
+
+nav {
+	width: 100%;
+}
+
+ul {
+	list-style: none;
+
+	& li {
+		display: inline-block;
+
+		& a {
+			text-decoration: none;
+			color: $color-white;
+
+			&:hover {
+				text-decoration: none;
+				color: $color-white;
+			}
+		}
+	}
+}
